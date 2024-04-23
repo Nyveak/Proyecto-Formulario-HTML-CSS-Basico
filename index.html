@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="kmcontainer">
+        <h1>Formulario de Registro<br>Kevin Andres Martinez Leal</h1>
+        <h2>Datos de la cuenta</h2>
+        <form>
+            <label for="usuario"><b>Usuario:</b></label>
+            <br>
+            <input placeholder="Usuario">
+            <br>
+            <label for=""><b>Correo Electronico:</b></label>
+            <br>
+            <input type="email" placeholder="Correo Electronico">
+            <br>
+            <label for=""><b>Contraseña:</b></label>
+            <br>
+            <input type="password" placeholder="Contraseña">
+            <br>
+            <label for=""><b>Confirmar Contraseña:</b></label>
+            <br>
+            <input type="password" placeholder="Confirmar Contraseña">
+            <br>
+            <label for=""><b>Codigo Postal:</b></label>
+            <br>
+            <input placeholder="Codigo Postal">
+            <h2>Datos Personales</h2>
+            <label><b>Sexo:</b></label>
+            <br>
+            <br>
+            <input type="radio" name="Sexo"><b>Masculino</b>
+            <input type="radio" name="Sexo"><b>Femenino</b>
+            <br>
+            <br>
+            <label for=""><b>Ciudad</b></label>
+            <br>
+            <select class="kmselector" name="ciudad">
+                <option value="barranquilla">Barranquilla</option>
+                <option value="bogota">Bogotá</option>
+                <option value="medellin">Medellín</option>
+            </select>
+            <br>
+            <br>
+            <label for=""><b>Legalidades</b></label>
+            <br>
+            <input type="checkbox"><b>Acepto los términos y condiciones</b>
+            <br>
+            <br>
+            <input class="kmbtnenviar" type="submit" value="Registrar">
+            <input class="kmbtnreset" type="reset" value="Reiniciar">
+        </form>
+    </section> 
+</body>
+</html>
